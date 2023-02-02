@@ -1,0 +1,80 @@
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 8px;
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #fbf5f9 100%);
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.sbmt button{
+   
+    width: 100px;
+    height:36px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left:100px;
+    background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #dcccd8 100%);
+border: 1px solid blueviolet;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.password{
+    margin-left: 10px;
+    margin-top:20px;
+}
+
+.password a{
+    text-decoration: none;
+    color: rgb(123, 169, 85);
+}
+
+@media screen and (max-width: 780px) {
+    .Auth-form {
+        width: 320px;
+        box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 8px;
+        background-color: #FFDEE9;
+      background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+      }
+
+      .sbmt button {
+        background-color: aliceblue;
+        width: 100px;
+        height: 36px;
+        border-radius: 10px;
+        margin-top: 35px;
+        margin-left: 50px;
+      }
+
+}
